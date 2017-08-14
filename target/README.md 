@@ -1,0 +1,9 @@
+
+Instructions to run the StockTradesWriter:
+- Run as Java Application 
+Project Name: kinesis-play
+
+Main: com.amazonaws.services.kinesis.samples.stocktrades.writer.StockTradesWriter
+
+ -  Second TAB: 
+Arguments: StockTradeStream eu-west-1
