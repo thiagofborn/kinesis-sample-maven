@@ -1,4 +1,4 @@
- <h1>  Steps to clone to Eclipse with Maven plugin </h1>  
+ <h1>  Steps to clone the sample project from AWS to Eclipse with Maven plugin </h1>  
 
 1 - Steps to get the project sample working without trouble 
 
