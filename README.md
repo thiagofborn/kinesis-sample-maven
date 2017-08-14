@@ -55,3 +55,6 @@ git clone --bare https://github.com/thiagofborn/kinesis-sample-maven.git
 - Go to Maven Menu and update the project 
 - Go to the the red lined file from your "Eclipse Explorer" open it and click at the issue (the lines sublined in red) and  click in "Organize importsi" to fix
 - Go to Maven Menu and Build 
+
+References: 
+[1] Learning Amazon Kinesis Streams Development -  http://docs.aws.amazon.com/streams/latest/dev/learning-kinesis.html
