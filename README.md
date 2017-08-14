@@ -1,17 +1,21 @@
  -- Steps to clone to Eclipse with Maven plugin --
 
-1 - Steps to get the project sample working without headaches 
+1 - Steps to get the project sample working without trouble 
+
+ - Eclipse Java EE IDE for Web Developers.  Version: Neon.2 Release (4.6.2) Build id: 20161208-0600
+ - m2e - Maven Integration for Eclipse (includes Incubating components)	1.7.0.20160603-1933	org.eclipse.m2e.feature.feature.group	Eclipse.org - m2e
+
 -> This files orginally comes from the awslab. I modified them to my needs. <-
 
  - 1a: First clone via command line the git repository: 
 git clone --bare https://github.com/thiagofborn/kinesis-sample-maven.git
 
  - Go to Eclipse and create a Java Project 
- With your file explore (In my case Finder) copy the directory "com" from the original project cloned from the step 1a
+ With your file explore (In my case Finder) copy the directory "com" from the original project cloned by git from the step 1a
+ and paste at the directory "src" from Eclipse. 
 
  - At Eclipse:
  - Right click Java Project (the one you created) - Click "Configure" -> "Convert to a Maven Project"
-
  - Update the Maven pom.xml File with the content: 
 
  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -50,3 +54,4 @@ git clone --bare https://github.com/thiagofborn/kinesis-sample-maven.git
 
 - Go to Maven Menu and update the project 
 - Go to the the red lined file from your "Eclipse Explorer" open it and click at the issue (the lines sublined in red) and  click in "Organize importsi" to fix
+- Go to Maven Menu and Build 
