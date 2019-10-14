@@ -5,7 +5,7 @@
  - Eclipse Java EE IDE for Web Developers.  Version: Neon.2 Release (4.6.2) Build id: 20161208-0600
  - m2e - Maven Integration for Eclipse (includes Incubating components)	1.7.0.20160603-1933	org.eclipse.m2e.feature.feature.group	Eclipse.org - m2e
 
--> This files orginally comes from the awslab. I modified them to my needs. <-
+-> This files orginally comes from the awslab. I have modified them to meet my needs. <-
 
  - 1a: First clone via command line the git repository: 
 git clone --bare https://github.com/thiagofborn/kinesis-sample-maven.git
